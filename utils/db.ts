@@ -83,8 +83,23 @@ export const uniModals: Model[] = [
 ]
 
 export const textGenModels: Model[] = [{
-    id: '@cf/meta/llama-3.1-8b-instruct',
-    name: 'llama-3.1-8b-instruct',
+    id: '@hf/mistral/mistral-7b-instruct-v0.2',
+    name: 'mistral-7b-instruct-v0.2',
+    provider: 'workers-ai',
+    type: 'chat'
+}, {
+    id: '@hf/thebloke/deepseek-coder-6.7b-base-awq',
+    name: 'deepseek-coder-6.7b-base-awq',
+    provider: 'workers-ai',
+    type: 'chat'
+}, {
+    id: '@cf/deepseek-ai/deepseek-math-7b-instruct',
+    name: 'deepseek-math-7b-instruct',
+    provider: 'workers-ai',
+    type: 'chat'
+}, {
+    id: '@cf/thebloke/discolm-german-7b-v1-awq',
+    name: 'discolm-german-7b-v1-awq',
     provider: 'workers-ai',
     type: 'chat'
 }, {
@@ -120,6 +135,31 @@ export const textGenModels: Model[] = [{
 }, {
     id: '@cf/meta/llama-3-8b-instruct',
     name: 'llama-3-8b-instruct',
+    provider: 'workers-ai',
+    type: 'chat'
+}, {
+    id: '@cf/meta/llama-2-7b-chat-int8',
+    name: 'llama-2-7b-chat-int8（付费的，少用点）',
+    provider: 'workers-ai',
+    type: 'chat'
+}, {
+    id: '@cf/baai/bge-base-en-v1.5',
+    name: 'bge-base-en-v1.5（付费的，少用点）',
+    provider: 'workers-ai',
+    type: 'chat'
+}, {
+    id: '@cf/meta/m2m100-1.2b',
+    name: 'm2m100-1.2b（付费的，少用点）',
+    provider: 'workers-ai',
+    type: 'chat'
+}, {
+    id: '@cf/microsoft/resnet-50',
+    name: 'resnet-50（付费的，少用点）',
+    provider: 'workers-ai',
+    type: 'chat'
+}, {
+    id: '@cf/openai/whisper',
+    name: 'whisper（付费的，少用点）',
     provider: 'workers-ai',
     type: 'chat'
 }]

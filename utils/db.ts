@@ -118,28 +118,29 @@ export const textGenModels: Model[] = [{
     provider: 'workers-ai',
     type: 'chat'
 }, {
+    id: '@hf/thebloke/llamaguard-7b-awq',
+    name: 'llamaguard-7b-awq',
+    provider: 'workers-ai',
+    type: 'chat'
+}, {
+    id: '@hf/nexusflow/starling-lm-7b-beta',
+    name: 'starling-lm-7b-beta',
+    provider: 'workers-ai',
+    type: 'chat'
+}, {
+    id: '@cf/meta/llama-2-7b-chat-fp16',
+    name: 'llama-2-7b-chat-fp16(付费的，少用点)',
+    provider: 'workers-ai',
+    type: 'chat'
+}, {
+    id: '@hf/meta-llama/meta-llama-3-8b-instruct',
+    name: 'meta-llama-3-8b-instruct（付费的，少用点）',
+    provider: 'workers-ai',
+    type: 'chat'
+
+}, {
     id: '@cf/meta/llama-2-7b-chat-int8',
     name: 'llama-2-7b-chat-int8（付费的，少用点）',
-    provider: 'workers-ai',
-    type: 'chat'
-}, {
-    id: '@cf/baai/bge-base-en-v1.5',
-    name: 'bge-base-en-v1.5（付费的，少用点）',
-    provider: 'workers-ai',
-    type: 'chat'
-}, {
-    id: '@cf/meta/m2m100-1.2b',
-    name: 'm2m100-1.2b（付费的，少用点）',
-    provider: 'workers-ai',
-    type: 'chat'
-}, {
-    id: '@cf/microsoft/resnet-50',
-    name: 'resnet-50（付费的，少用点）',
-    provider: 'workers-ai',
-    type: 'chat'
-}, {
-    id: '@cf/openai/whisper',
-    name: 'whisper（付费的，少用点）',
     provider: 'workers-ai',
     type: 'chat'
 }]

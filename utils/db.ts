@@ -118,16 +118,6 @@ export const textGenModels: Model[] = [{
     provider: 'workers-ai',
     type: 'chat'
 }, {
-    id: '@hf/thebloke/llamaguard-7b-awq',
-    name: 'llamaguard-7b-awq',
-    provider: 'workers-ai',
-    type: 'chat'
-}, {
-    id: '@hf/nexusflow/starling-lm-7b-beta',
-    name: 'starling-lm-7b-beta',
-    provider: 'workers-ai',
-    type: 'chat'
-}, {
     id: '@cf/meta/llama-2-7b-chat-fp16',
     name: 'llama-2-7b-chat-fp16(付费的，少用点)',
     provider: 'workers-ai',

@@ -108,6 +108,16 @@ export const textGenModels: Model[] = [{
     provider: 'workers-ai',
     type: 'chat'
 }, {
+    id: '@cf/fblgit/una-cybertron-7b-v2-bf16',
+    name: 'una-cybertron-7b-v2-bf16',
+    provider: 'workers-ai',
+    type: 'chat'
+}, {
+    id: '@hf/nousresearch/hermes-2-pro-mistral-7b',
+    name: 'hermes-2-pro-mistral-7b',
+    provider: 'workers-ai',
+    type: 'chat'
+}, {
     id: '@hf/nexusflow/starling-lm-7b-beta',
     name: 'starling-lm-7b-beta',
     provider: 'workers-ai',
